@@ -1,0 +1,48 @@
+body, html, .container {
+    margin: 0;
+    height: 100%; 
+}
+
+.content {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    background-color: #5da59d;
+    
+    border: 2px solid;
+    border-radius: 8px;
+    justify-content: space-between; 
+    align-items: flex-end;
+  
+    padding: 20px;
+}
+
+.calculator {
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #626060;
+    justify-content: space-between;   
+    padding: 20px;
+    height: 600px;
+    row-gap: 10px;
+    box-shadow: 3px 3px 0 rgb(71, 70, 70);
+}
+
+.section {
+    column-gap: 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.equal {
+    background-color: orange;
+}
+
+.result {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 24px;
+}
